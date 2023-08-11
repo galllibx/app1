@@ -1,13 +1,21 @@
 import React from "react";
-import './style.css'
+import { Header,Content,Footer } from "./func-components";
 
 function App() {
+  //แบบที่ 1 กำหนดฟังก์ชันทั้งหมดที่จะแสดงในแบบอาร์เรย์
+  return (
+    [<Header/>,<Content/>,<Footer/>]
+  )
+  //แบบที่ 2 กำหนดฟังก์ชันทั้งหมดที่จะแสเงลงใน Parent เดียวกัน
+  /*
   return (
     <>
-    <h2>DeveloperThai.com</h2>
-    <div className="title">React roigjr</div>
+      <Header/>
+      <Content/>
+      <Footer/>
     </>
-  );
+  )
+  */
 }
 
-export default App;
+export default App
