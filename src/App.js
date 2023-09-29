@@ -1,4 +1,5 @@
 import React from 'react'
+import FormCheck from './form-check'
 // import Banner from './banner'
 // import { Header,Content,Footer } from "./func-components";
 // import Calendar from "./class-components";
@@ -12,7 +13,8 @@ import React from 'react'
 //import Content from './context-content'
 //import Header2 from './context-header2'
 //import Content2 from './context-content2'
-import Router3  from './router3';
+//import Router3  from './router3';
+
 
 // function App() {
 //   return (
@@ -38,7 +40,8 @@ export default function App(){
         <Header2/>
         <Content2/>
       </userContext.Provider>*/
-      <Router3/>
+      //<Router3/>
+      <FormCheck/>
     )
 }
 
