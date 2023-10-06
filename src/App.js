@@ -1,5 +1,6 @@
 import React from 'react'
-import FormCheck from './form-check'
+import FormValidation from './form-validation'
+//import FormCheck from './form-check'
 // import Banner from './banner'
 // import { Header,Content,Footer } from "./func-components";
 // import Calendar from "./class-components";
@@ -41,7 +42,8 @@ export default function App(){
         <Content2/>
       </userContext.Provider>*/
       //<Router3/>
-      <FormCheck/>
+      //<FormCheck/>
+      <FormValidation/>
     )
 }
 
